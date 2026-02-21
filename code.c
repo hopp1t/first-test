@@ -9,7 +9,13 @@ int main()
     printf("Второе: ");
     scanf("%d",&b);
     printf("%d + %d = %d\n", a,b,a+b);
+    printf(" Умножаем: %d * %d = %d\n", a,b, a*b);
     printf("Равно ли 45? %s\n",(a+b==45) ? "true" : "false");
 
-    return 0;
+
+
+    printf("Равно ли 45? %s\n",(a*b==45) ? "true" : "false");
+
+    return 0;  
+    
 }
