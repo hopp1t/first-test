@@ -5,12 +5,9 @@
 int main()
 {
     double a,b,c,d,x1,x2;
-    printf("Введите a\n");
-    scanf("%lf",&a);
-    printf("Введите b\n");
-    scanf("%lf",&b);
-    printf("Введите c\n");
-    scanf("%lf",&c);
+    printf("Введите a,b,c через пробел\n");
+    scanf("%lf %lf %lf",&a,&b,&c);
+
     if (a==0)
     {
         printf("a не может быть равен 0 в квадратном уравнении\n");
