@@ -1,9 +1,19 @@
-void Main()
+using System;
+class Program
 {
-    int a = 10;
-    int b = 25;
-    if(a+b ==35)
+    static void Main()
     {
-        
+        int a = 10;
+        int b = 25;
+        bool c;
+        if(a+b ==35)
+        {
+            c = true;
+        }
+        else
+        {
+            c = false;
+        }
     }
 }
+
